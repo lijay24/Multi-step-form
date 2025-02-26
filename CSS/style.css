@@ -265,6 +265,10 @@ input:checked + .slider::before{
     display: none;
     width: 80%;
 }
+.ad-selected {
+    border: 1px solid var(--Purplish-blue);
+    background-color: var(--Magnolia);
+  }
 .step-3 form{
     display: flex;
     flex-direction: column;
@@ -334,22 +338,19 @@ font-weight: 700;
 }
 .selected-address{
     display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
-    color: var(--Coolgray);
-    font-weight: 500;
-    font-size: .5rem;
-
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  color: var(--Coolgray);
+  font-weight: 500;
 }
 .selected-address .service-price{
     color: var(--Marineblue);
 }
 .total{
-display: flex;
-padding: 1.5rem;
-align-items: center;
-justify-content: space-between;
-color: var(--Coolgray);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: var(--Coolgray);
 }
 
 .total b{
@@ -367,7 +368,9 @@ color: var(--Coolgray);
     display: none;
     
 }
-
+.err {
+    border: 2px solid var(--Strawberry-red) !important;
+  }
 
 
 

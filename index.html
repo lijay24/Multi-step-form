@@ -165,34 +165,37 @@
 <!-- Step 3 end -->
 
   <!-- Step 4 start -->
-<div class="stp step-4">
-  <div class="header">
-    <h1 class="title">Finishing up</h1>
-    <p class="exp">Double-check everything looks OK before confirming.</p>
-  </div>
-  <div class="selection-box">
-    <div class="selection-container">
-      <div class="selected-plan">
-        <p class="plan-name">Arcade(Monthly)</p>
-        <p class="plan-price">$9/mo</p>
-      </div>
-      <hr class="selected">
-      <div class="address">
-        <template>
-          <div class="selected-address">
-            <span class="service-name">Online Service</span>
-            <span class="service-price">+$1/mo</span>
-          </div>
-        </template>
-      </div>
+  <div class="stp step-4">
+    <div class="header">
+      <h1 class="title">Finishing up</h1>
+      <p class="exp">Double-check everything looks OK before confirming.</p>
     </div>
-    <p class="total">Total (per month)<b>+$12/mo</b></p>
+    <div class="selection-box">
+      <div class="selection-container">
+        <div class="selected-plan">
+          <p class="plan-name">Arcade (Monthly)</p>
+          <p class="plan-price">$9/mo</p>
+        </div>
+        <hr>
+        <a href="#" class="change-plan">Change</a>
+        <div class="address">
+        </div>
+      </div>
+      <p class="total">Total (per month)<b>+$12/mo</b></p>
+    </div>
+    <div class="btns">
+      <button class="prev-step" type="button">Go Back</button>
+      <button class="next-step" type="submit">Confirm</button>
+    </div>
   </div>
-  <div class="btns">
-    <button class="prev-step" type="button">Go Back</button>
-    <button class="next-step" type="submit">Confirm</button>
-  </div>
-</div>
+  
+  <!-- Template for Add-ons in Summary -->
+  <template>
+    <div class="selected-address" data-id="">
+      <span class="service-name">Online Service</span>
+      <span class="service-price">+$1/mo</span>
+    </div>
+  </template>
 <!-- Step 4 end -->
 
   <!-- Step 5 start -->
